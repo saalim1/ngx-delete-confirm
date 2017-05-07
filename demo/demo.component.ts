@@ -9,9 +9,11 @@ require('font-awesome/css/font-awesome.css');
 })
 export class DemoComponent {
     private sections: Map<string, string> = new Map<string, string>();
+    private msg: string;
 
     constructor() {
         this.sections.set('default', 'template');
+        this.sections.set('custom_question', 'template');
     }
 
     private activate(section: string, tab: string): void {
@@ -21,11 +23,11 @@ export class DemoComponent {
         return this.sections.get(section) === tab;
     }
 
-    private sendConfirm($event: any): void {
-        console.log('Confirm: ', $event);
+    private sendDelete($event: any): void {
+        this.msg = 'Delete it';
     }
 
     private sendCancel($event: any): void {
-        console.log('Cancel: ', $event);
+        this.msg = 'Backoff!';
     }
 }

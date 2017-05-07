@@ -3,8 +3,6 @@
 }
 
 .delete-confirm-btn {
-    float: left;
-    position: absolute;
 }
 
 .delete-confirm-question {
@@ -13,9 +11,13 @@
     float: left;
     position: absolute;
     z-index: 1;
-    padding: 3px;
+    padding: 5px 5px 5px 8px;
     border-radius: 7px;
     margin: -5px;
+}
+
+.delete-confirm-question button {
+    background-color: red;
 }
 
 .delete-confirm-question i {

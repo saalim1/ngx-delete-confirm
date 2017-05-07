@@ -7,7 +7,7 @@
     "moduleGlobal": "ngxDeleteConfirm",
     "ngModuleName": "NgxDeleteConfirmModule",
     "selectorPrefix": "/",
-    "projectTitle": "ngx click to edit",
+    "projectTitle": "ngx delete confirm",
     "projectDescription": "",
     "authorName": "gijs.sijpesteijn"
   }
