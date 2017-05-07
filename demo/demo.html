@@ -1,0 +1,112 @@
+<div class="row">
+    <div class="col-md-10 col-xs-12 col-md-offset-1 push-md-1">
+        <div class="content-header">
+            <h1>Delete confirm</h1>
+        </div>
+
+        <div class="content-box" id="content">
+
+            <div class="section" id="example">
+                <div class="item">
+
+                    <p>Delete confirm is an trash icon component.</p>
+
+                    <h2>Contents</h2>
+                    <ul>
+                        <li><a fragment="examples" routerlink="." href="#usage">Usage</a></li>
+                        <li><a fragment="examples" routerlink="." href="#examples">Examples</a>
+                            <ul>
+                                <li><a fragment="default" routerlink="." href="#default">Default</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h2 fragment="usage" id="usage" routerlink=".">Usage</h2>
+
+                    <pre>
+            import &#123; NgxDeleteConfirmModule &#125; from 'ngx-delete-confirm';&#xD;
+
+            @NgModule(&#123;
+                imports: [NgxDeleteConfirmModule.forRoot(),...]
+            &#125;)
+            export class AppModule()&#123;&#125;</pre>
+
+                    <h2 fragment="examples" id="examples" routerlink=".">Examples</h2>
+                    <p>Wrap the dropdown’s toggle (your button or link) and the dropdown menu within
+                        <code>dropdown</code>.
+                        Dropdowns can be triggered from <code> &lt;a&gt;</code> or <code> &lt;button&gt;</code> elements
+                        to better fit your potential needs.</p>
+
+                    <h2 fragment="default" id="default" routerlink=".">Default use</h2>
+
+                    <p>Default usage.</p>
+
+                    <div class="section cte-example">
+                        <ngx-delete-confirm (onConfirm)="sendDelete($event)" (onCancel)="sendCancel($event)"></ngx-delete-confirm>
+                    </div>
+                    <div class="section">
+                        <div class="item">
+                            <div class="tab-container">
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item" [class.active]="isActive('default','template')">
+                                        <a class="nav-link" (click)="activate('default','template')"
+                                           href="javascript:void(0);">
+                                            <span>template</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item" [class.active]="isActive('default','component')">
+                                        <a class="nav-link" (click)="activate('default','component')"
+                                           href="javascript:void(0);">
+                                            <span>component</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div heading="component" [class.active]="isActive('default','template')"
+                                         class="tab-pane">
+                                        <pre>
+
+
+        <ol class="linenums"><li class="L0"><span class="tag">&lt;ngx-delete-confirm</span><span
+                class="pln"> [</span><span
+                class="atn">value</span><span class="pln">]</span><span class="pun">=</span><span
+                class="atv">"Limpsum"</span><span class="pln"> (</span><span
+                class="atn">onSave</span><span class="pln">)</span><span class="pun">=</span><span
+                class="atv">"showValue($event)"</span><span class="tag">&gt;</span><span class="tag">&lt;/ngx-click-to-edit&gt;</span></li>
+        </ol></pre>
+                                    </div>
+                                    <div heading="component" [class.active]="isActive('default','component')"
+                                         class="tab-pane">
+                                        <pre class="prettyprint linenums lang-js prettyprinted" style=""><ol
+                                                class="linenums"><li><span class="kwd">import</span><span
+                                                class="pln"> </span><span class="pun">&#123;</span><span
+                                                class="pln"> </span><span class="typ">Component</span><span
+                                                class="pln"> </span><span class="pun">&#125;</span><span class="pln"> from </span><span
+                                                class="str">'@angular/core'</span><span class="pun">;</span></li><li><span
+                                                class="pln">&nbsp;</span></li><li class="L2"><span
+                                                class="lit">@Component</span><span class="pun">(&#123;</span></li><li><span
+                                                class="pln">  selector</span><span class="pun">:</span><span
+                                                class="pln"> </span><span
+                                                class="str">'demo-click-to-edit-default'</span><span
+                                                class="pun">,</span></li><li><span
+                                                class="pln">  templateUrl</span><span class="pun">:</span><span
+                                                class="pln"> </span><span class="str">'./default.html'</span></li><li><span
+                                                class="pun">&#125;)</span></li><li class="L6"><span
+                                                class="kwd">export</span><span class="pln"> </span><span class="kwd">class</span><span
+                                                class="pln"> </span><span
+                                                class="typ">DemoClickToEditDefaultComponent</span><span
+                                                class="pln"> </span><span class="pun">&#123;</span></li><li><span
+                                                class="pln">  private showValue($event: any): void </span><span class="pun">&#123;</span></li><li><span
+                                                class="pln">    console.log($event);</span></li><li><span class="pln">  </span><span class="pun">&#125;</span></li><li><span
+                                                class="pun">&#125;</span></li></ol></pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

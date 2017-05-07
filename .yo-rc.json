@@ -1,0 +1,14 @@
+{
+  "generator-angular-library": {
+    "githubUsername": "sijpesteijn",
+    "githubRepoName": "ngx-delete-confirm",
+    "npmModuleName": "ngx-delete-confirm",
+    "allowNg2InModuleName": true,
+    "moduleGlobal": "ngxDeleteConfirm",
+    "ngModuleName": "NgxDeleteConfirmModule",
+    "selectorPrefix": "/",
+    "projectTitle": "ngx click to edit",
+    "projectDescription": "",
+    "authorName": "gijs.sijpesteijn"
+  }
+}

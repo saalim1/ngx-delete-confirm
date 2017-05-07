@@ -1,0 +1,9 @@
+.idea/
+.DS_Store
+node_modules/
+coverage/
+npm-debug.log
+/.idea/
+/ngx-delete-confirm.iml
+/"fontawesome-webfont-*"
+/main-*.js

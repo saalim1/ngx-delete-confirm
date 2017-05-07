@@ -1,0 +1,27 @@
+.delete-confirm {
+    background-color: transparent;
+}
+
+.delete-confirm-btn {
+    float: left;
+    position: absolute;
+}
+
+.delete-confirm-question {
+    color: white;
+    background-color: red;
+    float: left;
+    position: absolute;
+    z-index: 1;
+    padding: 3px;
+    border-radius: 7px;
+    margin: -5px;
+}
+
+.delete-confirm-question i {
+    color: white;
+}
+
+.fa-times, fa-check {
+    color: white;
+}
