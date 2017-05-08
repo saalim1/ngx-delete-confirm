@@ -1,6 +1,6 @@
 {
   "name": "ngx-delete-confirm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "./bundles/ngx-delete-confirm.umd.js",
   "module": "./index.js",
