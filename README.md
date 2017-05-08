@@ -1,4 +1,4 @@
-# ngx click to edit
+# ngx delete confirm
 [![Build Status](https://travis-ci.org/sijpesteijn/ngx-delete-confirm.svg?branch=master)](https://travis-ci.org/sijpesteijn/ngx-delete-confirm)
 [![codecov](https://codecov.io/gh/sijpesteijn/ngx-delete-confirm/branch/master/graph/badge.svg)](https://codecov.io/gh/sijpesteijn/ngx-delete-confirm)
 [![npm version](https://badge.fury.io/js/ngx-delete-confirm.svg)](http://badge.fury.io/js/ngx-delete-confirm)
@@ -36,7 +36,7 @@ import { ngxDeleteConfirmModule } from 'ngx-delete-confirm';
 
 @NgModule({
   imports: [
-    ngxClickToEditModule.forRoot()
+    ngxDeleteConfirmModule.forRoot()
   ]
 })
 export class MyModule {}
@@ -58,7 +58,7 @@ You may also find it useful to view the [demo source](https://github.com/sijpest
 ```
 <script src="node_modules/ngx-delete-confirm/bundles/ngx-delete-confirm.umd.js"></script>
 <script>
-    // everything is exported ngxClickToEdit namespace
+    // everything is exported ngxDeleteConfirm namespace
 </script>
 ```
 
