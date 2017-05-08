@@ -48,7 +48,7 @@ describe('delete confirm component', () => {
         expect(this.component.onConfirm.emit).toHaveBeenCalled();
     });
 
-    it('should confirm the cancel when ok clicked', () => {
+    it('should confirm the cancel when cancel clicked', () => {
         this.component.show = true;
         spyOn(this.component.onCancel, 'emit');
         this.fixture.detectChanges();
