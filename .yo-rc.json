@@ -1,13 +1,13 @@
 {
   "generator-angular-library": {
     "githubUsername": "sijpesteijn",
-    "githubRepoName": "ngx-delete-confirm",
-    "npmModuleName": "ngx-delete-confirm",
+    "githubRepoName": "ngx-virtual-joystick",
+    "npmModuleName": "ngx-virtual-joystick",
     "allowNg2InModuleName": true,
-    "moduleGlobal": "ngxDeleteConfirm",
-    "ngModuleName": "NgxDeleteConfirmModule",
+    "moduleGlobal": "ngxVirtualJoystick",
+    "ngModuleName": "NgxVirtualJoystickModule",
     "selectorPrefix": "/",
-    "projectTitle": "ngx delete confirm",
+    "projectTitle": "ngx virtual joystick",
     "projectDescription": "",
     "authorName": "gijs.sijpesteijn"
   }
