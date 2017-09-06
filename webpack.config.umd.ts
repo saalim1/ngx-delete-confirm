@@ -10,9 +10,9 @@ export default {
   entry: __dirname + '/src/index.ts',
   output: {
     path: __dirname + '/dist/umd',
-    filename: 'ngx-virtual-joystick.js',
+    filename: 'ngx-delete-confirm.js',
     libraryTarget: 'umd',
-    library: 'ngxVirtualJoystick'
+    library: 'ngxDeleteConfirm'
   },
   externals: [
         angularExternals(),

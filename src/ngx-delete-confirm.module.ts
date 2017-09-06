@@ -1,30 +1,28 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { NgxVirtualJoystickComponent } from './ngx-virtual-joystick.component';
-import { StickComponent } from './stick/stick.component';
+import { NgxDeleteConfirmComponent } from './ngx-delete-confirm.component';
 
 @NgModule({
     declarations: [
-        NgxVirtualJoystickComponent,
-        StickComponent
+        NgxDeleteConfirmComponent
     ],
     imports     : [
         CommonModule,
         FormsModule
     ],
     exports     : [
-        NgxVirtualJoystickComponent
+        NgxDeleteConfirmComponent
     ],
     entryComponents: [
-        NgxVirtualJoystickComponent
+        NgxDeleteConfirmComponent
     ]
 })
-export class NgxVirtualJoystickModule {
+export class NgxDeleteConfirmModule {
 
     static forRoot(): ModuleWithProviders {
         return {
-            ngModule: NgxVirtualJoystickModule
+            ngModule: NgxDeleteConfirmModule
         };
     }
 

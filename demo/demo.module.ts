@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { NgxDeleteConfirmModule } from '../index';
+import { NgxDeleteConfirmModule } from '../src/index';
 import { BrowserModule } from '@angular/platform-browser';
 import { DemoComponent } from './demo.component';
 

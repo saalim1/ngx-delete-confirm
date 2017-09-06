@@ -4,7 +4,7 @@ import {
     TestBed, async
 } from '@angular/core/testing';
 
-import { NgxDeleteConfirmModule } from '../index';
+import { NgxDeleteConfirmModule } from '../src/index';
 import { NgxDeleteConfirmComponent } from '../src/ngx-delete-confirm.component';
 
 describe('delete confirm component', () => {

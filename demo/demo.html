@@ -40,8 +40,8 @@
                     <p>Default usage.</p>
 
                     <div class="section cte-example">
-                        <ngx-delete-confirm (onConfirm)="sendDelete($event)"
-                                            (onCancel)="sendCancel($event)"></ngx-delete-confirm>
+                        <delete-confirm (onConfirm)="sendDelete($event)"
+                                            (onCancel)="sendCancel($event)"></delete-confirm>
                         {{ msg }}
                     </div>
                     <div class="section">
@@ -67,12 +67,12 @@
                                         <pre>
 
 
-        <ol class="linenums"><li class="L0"><span class="tag">&lt;ngx-delete-confirm</span><span
+        <ol class="linenums"><li class="L0"><span class="tag">&lt;delete-confirm</span><span
                 class="pln"> (</span><span
                 class="atn">onConfirm</span><span class="pln">)</span><span class="pun">=</span><span
                 class="atv">"sendDelete($event)"</span><span class="pln"> (</span><span
                 class="atn">onCancel</span><span class="pln">)</span><span class="pun">=</span><span
-                class="atv">"sendCancel($event)"</span><span class="tag">&gt;</span><span class="tag">&lt;/ngx-click-to-edit&gt;</span></li>
+                class="atv">"sendCancel($event)"</span><span class="tag">&gt;</span><span class="tag">&lt;/delete-confirm&gt;</span></li>
         </ol></pre>
                                     </div>
                                     <div heading="component" [class.active]="isActive('default','component')"
@@ -117,8 +117,8 @@
                     <p>Custom question.</p>
 
                     <div class="section cte-example">
-                        <ngx-delete-confirm [question]="'Are you nuts?'" (onConfirm)="sendDelete($event)"
-                                            (onCancel)="sendCancel($event)"></ngx-delete-confirm>
+                        <delete-confirm [question]="'Are you nuts?'" (onConfirm)="sendDelete($event)"
+                                            (onCancel)="sendCancel($event)"></delete-confirm>
                         {{ msg }}
                     </div>
                     <div class="section">
@@ -131,20 +131,20 @@
                                             <span>template</span>
                                         </a>
                                     </li>
-                                    <li class="nav-item" [class.active]="isActive('default','component')">
-                                        <a class="nav-link" (click)="activate('default','component')"
+                                    <li class="nav-item" [class.active]="isActive('custom_question','component')">
+                                        <a class="nav-link" (click)="activate('custom_question','component')"
                                            href="javascript:void(0);">
                                             <span>component</span>
                                         </a>
                                     </li>
                                 </ul>
                                 <div class="tab-content">
-                                    <div heading="component" [class.active]="isActive('default','template')"
+                                    <div heading="component" [class.active]="isActive('custom_question','template')"
                                          class="tab-pane">
                                         <pre>
 
 
-        <ol class="linenums"><li class="L0"><span class="tag">&lt;ngx-delete-confirm</span><span
+        <ol class="linenums"><li class="L0"><span class="tag">&lt;delete-confirm</span><span
                 class="pln"> [</span><span
                 class="atn">question</span><span class="pln">]</span><span class="pun">=</span><span
                 class="atv">"'Are you nuts?'"</span><span
@@ -152,10 +152,10 @@
                 class="atn">onConfirm</span><span class="pln">)</span><span class="pun">=</span><span
                 class="atv">"sendDelete($event)"</span><span class="pln"> (</span><span
                 class="atn">onCancel</span><span class="pln">)</span><span class="pun">=</span><span
-                class="atv">"sendCancel($event)"</span><span class="tag">&gt;</span><span class="tag">&lt;/ngx-click-to-edit&gt;</span></li>
+                class="atv">"sendCancel($event)"</span><span class="tag">&gt;</span><span class="tag">&lt;/delete-confirm&gt;</span></li>
         </ol></pre>
                                     </div>
-                                    <div heading="component" [class.active]="isActive('default','component')"
+                                    <div heading="component" [class.active]="isActive('custom_question','component')"
                                          class="tab-pane">
                                         <pre class="prettyprint linenums lang-js prettyprinted" style=""><ol
                                                 class="linenums"><li><span class="kwd">import</span><span
