@@ -32,11 +32,11 @@ Then include in your apps module:
 
 ```typescript
 import { Component, NgModule } from '@angular/core';
-import { ngxDeleteConfirmModule } from 'ngx-delete-confirm';
+import { NgxDeleteConfirmModule } from 'ngx-delete-confirm';
 
 @NgModule({
   imports: [
-    ngxDeleteConfirmModule.forRoot()
+    NgxDeleteConfirmModule.forRoot()
   ]
 })
 export class MyModule {}
